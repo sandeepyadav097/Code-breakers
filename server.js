@@ -1,9 +1,11 @@
-var express =require('express');
 
+var express =require('express');
 var app   =  express();
 var session = require('express-session');
+var indexRoute = require('./routes/index');
 
 
+app.use(indexRoute);
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
@@ -32,7 +34,6 @@ tesseract.process('pic.png', options, (err, text) => {
     // the text variable contains the recognized text
     console.log(text);
 });
-
 
 
 
