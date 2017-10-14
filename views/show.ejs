@@ -2,13 +2,13 @@
  <html>
       <head>
                <title> code breakers </title>
-                
+
 
                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
                  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,200,300,400,500">
                  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   
-  
+
+
 
                 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
                 <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
@@ -16,71 +16,74 @@
       </head>
 
       <body>
-     
+
      <div class = "container animateTop">
-            
-                           
+
+
          <div class="col-md-12">
-             
-         
+
+
               <div class="thumbnail animateBottom">
-               <img class="img-responsive" src="reflective-motorcycle-sticker-fuck-you-2-pack_600x.png">
-               
+               <img class="img-responsive" src="pic.jpg">
+
                <div class="caption-full">
 
                      <h1 class="animateLeft">your traslated speach is!!!!</h1>
-                     
+                     <p>
+                       <%= translation %>
+                     </p>
+
                      <hr>
 
-            
+
                     <button type="button" class="btn btn-primary animateRight">SPEAK</button>
 
                </div>
 
               </div>
-               
+
          </div>
 
-                    
+
 
 <script
 			  src="https://code.jquery.com/jquery-3.2.1.js"
 			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 			  crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
- 
+
 <script>
-        
+
         window.sr = ScrollReveal();
         sr.reveal('.animateBottom', {
-         
+
          duration:   2000,
          origin:    'bottom'
         });
         sr.reveal('.animateTop', {
-         
+
          duration:   2000,
      //  delay:      500,
          origin:    'top',
          distance: '300px'
         });
         sr.reveal('.animateRight', {
-         
+
          duration:   2000,
    //    delay:      2000,
          origin:    'right',
          distance: '300px'
         });
         sr.reveal('.animateLeft', {
-         
+
          duration:   2000,
    //    delay:      2000,
          origin:    'left'
         });
-  
-    
+
+
 </script>
       </body>
 
