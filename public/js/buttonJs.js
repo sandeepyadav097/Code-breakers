@@ -20,47 +20,63 @@
   // $('.btnresult').html(data);
   // document.getElementById('objectimg').src=inputdata;
   // })
-// 
+//
 // });
 
-$('#submitFile').on('click',function(){
+// $('#submitFile').on('click',function(){
+//
+//   previewFile();
+// });
+//
+// function previewFile() {
+//   var preview = document.getElementById('objectimg');
+//   var file    = document.querySelector('input[type=file]').files[0];
+//   var reader  = new FileReader();
+//
+//   reader.addEventListener("load", function () {
+//     preview.src = reader.result;
+//     var imgdata=reader.result;
+//     console.log(reader.result)
+//    $.post('/',{imgdata},function(){
+//      console.log("successfull")
+//
+//
+//    })
+//       setInterval(function(){
+//           $.ajax({url: '/data'}).done(function (data) {
+//      console.log(data);
+//      $('.btnresult').html(data);
+//
+//
+//
+//
+//
+//    });
+//       },1000);
+//
+//
+//   }, false);
+//
+//   if (file) {
+//     reader.readAsDataURL(file);
+//   }
+// }
 
-  previewFile();
+$('#submitFile').on('click', function()
+{
+
+var filename = $('#fileurl').val().split('\\').pop();
+console.log(filename);
+$.ajax({
+  type: "POST",
+  url: '/recimg',
+  data: {filename},
+  success: function(){console.log('done')}
 });
 
-function previewFile() {
-  var preview = document.getElementById('objectimg');
-  var file    = document.querySelector('input[type=file]').files[0];
-  var reader  = new FileReader();
-
-  reader.addEventListener("load", function () {
-    preview.src = reader.result;
-    var imgdata=reader.result;
-    console.log(reader.result)
-   $.post('/',{imgdata},function(){
-     console.log("successfull")
-
-
-   })
-      setInterval(function(){
-          $.ajax({url: '/data'}).done(function (data) {
-     console.log(data);
-     $('.btnresult').html(data);
-
-
-
-
-
-   });
-      },1000);
-
-
-  }, false);
-
-  if (file) {
-    reader.readAsDataURL(file);
-  }
 }
 
+
+);
 
 //*********************
