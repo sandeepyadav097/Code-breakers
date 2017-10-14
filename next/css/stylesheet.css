@@ -1,0 +1,43 @@
+ 
+#back{
+    
+   height:100%;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+    z-index: 998;
+    background-image: url(back1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#body{
+   transition: 0.5s;
+}
+
+#col{
+    z-index:-10;
+    width:50%;
+  opacity: 0.6;
+    
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+   padding-top:10px;
+    padding-left: 0;
+    z-index: 2;
+}
+
+
+
+.hidden{
+    display: 
+}
+
