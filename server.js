@@ -3,15 +3,24 @@ var express =require('express');
 var app   =  express();
 var session = require('express-session');
 var indexRoute = require('./routes/index');
+var bodyParser = require('body-parser');
 
-
-app.use(indexRoute);
+//session
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
   saveUninitialized: true,
   cookie: { secure: true }
 }))
+app.use(express.static(__dirname+'/public'));
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+//Routes configuration
+
+app.use(indexRoute);
+
+
 
 
 // OCR
@@ -35,7 +44,12 @@ tesseract.process('pic.png', options, (err, text) => {
     console.log(text);
 });
 
-
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
 
 
 //************************
