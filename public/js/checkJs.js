@@ -3,11 +3,12 @@ $(document).ready(function(){
   });
 
 
- 
+
      var video = document.getElementById('video');
      var subbtn=document.getElementById("submit");
      var canvas=document.getElementById("canvas");
-     
+     var modalimg=document.getElementById('objectimg')
+
      navigator.getUserMedia = navigator.getUserMedia ||
                          navigator.webkitGetUserMedia ||
                          navigator.mozGetUserMedia;
@@ -15,7 +16,7 @@ $(document).ready(function(){
 if (navigator.getUserMedia) {
    navigator.getUserMedia({ audio: true, video: true },
       function(stream) {
-         
+
          video.srcObject = stream;
 
       },
@@ -28,12 +29,24 @@ if (navigator.getUserMedia) {
 }
 
      subbtn.addEventListener('click',function(){
-         
+
          var cont=canvas.getContext('2d');
          cont.drawImage(video,0,0,canvas.width,canvas.height)
          var imgdata=canvas.toDataURL();
-         console.log(imgdata);
+         modalimg.src=imgdata;
          
-         document.getElementById('p').innerHTML=imgdata;
-             })
-     
+         
+         
+         $.post('/',{imgdata})
+         
+         setInterval(function(){
+                    $.ajax({url: '/data'}).done(function (data) {
+    console.log(data);
+    $('.result').html(data);
+});
+          
+       });
+
+         },1000);
+         
+  
