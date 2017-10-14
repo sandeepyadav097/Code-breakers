@@ -1,0 +1,535 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tesseract' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tesseract
+8 silly fetchNamedPackageData tesseract
+9 silly mapToRegistry name tesseract
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'tesseract',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'tesseract',
+12 silly mapToRegistry   name: 'tesseract',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/tesseract
+14 verbose request uri https://registry.npmjs.org/tesseract
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:49:49 AM
+17 verbose request id ee4ca1d62b6a40d7
+18 http request GET https://registry.npmjs.org/tesseract
+19 http 200 https://registry.npmjs.org/tesseract
+20 verbose headers { server: 'nginx/1.10.3',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Wed, 06 Sep 2017 06:36:57 GMT',
+20 verbose headers   etag: 'W/"59af9789-1571"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '1607',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Fri, 13 Oct 2017 22:19:46 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-syd1620-SYD',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1507933186.249833,VS0,VE10',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.3',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Wed, 06 Sep 2017 06:36:57 GMT',
+21 silly get     etag: 'W/"59af9789-1571"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '1607',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Fri, 13 Oct 2017 22:19:46 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-syd1620-SYD',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1507933186.249833,VS0,VE10',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving tesseract to C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\registry.npmjs.org\tesseract\.cache.json
+23 verbose correctMkdir C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule tesseract@0.0.3 checking installable status
+37 silly cache add args [ 'tesseract', null ]
+38 verbose cache add spec tesseract
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'tesseract',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'tesseract',
+39 silly cache add   name: 'tesseract',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed tesseract@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for tesseract
+42 info addNameTag [ 'tesseract', 'latest' ]
+43 silly mapToRegistry name tesseract
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'tesseract',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'tesseract',
+46 silly mapToRegistry   name: 'tesseract',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/tesseract
+48 verbose addNameTag registry:https://registry.npmjs.org/tesseract not in flight; fetching
+49 verbose get https://registry.npmjs.org/tesseract not expired, no request
+50 silly addNameTag next cb for tesseract with tag latest
+51 silly addNamed tesseract@0.0.3
+52 verbose addNamed "0.0.3" is a plain semver version for tesseract
+53 silly mapToRegistry name tesseract
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'tesseract',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'tesseract',
+56 silly mapToRegistry   name: 'tesseract',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/tesseract
+58 verbose addRemoteTarball https://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz',
+59 verbose addRemoteTarball   'ff4b9d05bfee0d90d3d93450e8c6606954ff362c' ]
+60 info retry fetch attempt 1 at 3:49:51 AM
+61 info attempt registry request try #1 at 3:49:51 AM
+62 http fetch GET https://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz
+63 http fetch 200 https://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz
+64 silly fetchAndShaCheck shasum ff4b9d05bfee0d90d3d93450e8c6606954ff362c
+65 verbose addTmpTarball C:\Users\SANDEE~1\AppData\Local\Temp\npm-6408-a72c0572\registry.npmjs.org\tesseract\-\tesseract-0.0.3.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for tesseract@0.0.3
+67 verbose correctMkdir C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd tesseract@0.0.3
+69 verbose afterAdd C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\tesseract\0.0.3\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\tesseract\0.0.3\package\package.json written
+72 silly loadAllDepsIntoIdealTree Finishing
+73 silly loadIdealTree Finishing
+74 silly currentTree code-breakers@1.0.0
+74 silly currentTree +-- abstract-leveldown@0.12.4
+74 silly currentTree | `-- xtend@3.0.0
+74 silly currentTree +-- accepts@1.3.4
+74 silly currentTree +-- ajv@5.2.3
+74 silly currentTree +-- array-flatten@1.1.1
+74 silly currentTree +-- asn1@0.2.3
+74 silly currentTree +-- assert-plus@1.0.0
+74 silly currentTree +-- asynckit@0.4.0
+74 silly currentTree +-- aws-sign2@0.7.0
+74 silly currentTree +-- aws4@1.6.0
+74 silly currentTree +-- balanced-match@1.0.0
+74 silly currentTree +-- bcrypt-pbkdf@1.0.1
+74 silly currentTree +-- body-parser@1.18.2
+74 silly currentTree +-- boom@4.3.1
+74 silly currentTree +-- brace-expansion@1.1.8
+74 silly currentTree +-- bytes@3.0.0
+74 silly currentTree +-- caseless@0.12.0
+74 silly currentTree +-- co@4.6.0
+74 silly currentTree +-- combined-stream@1.0.5
+74 silly currentTree +-- concat-map@0.0.1
+74 silly currentTree +-- content-disposition@0.5.2
+74 silly currentTree +-- content-type@1.0.4
+74 silly currentTree +-- cookie-signature@1.0.6
+74 silly currentTree +-- cookie@0.3.1
+74 silly currentTree +-- core-util-is@1.0.2
+74 silly currentTree +-- crc@3.4.4
+74 silly currentTree +-- cryptiles@3.1.2
+74 silly currentTree | `-- boom@5.2.0
+74 silly currentTree +-- dashdash@1.14.1
+74 silly currentTree +-- debug@2.6.9
+74 silly currentTree +-- delayed-stream@1.0.0
+74 silly currentTree +-- depd@1.1.1
+74 silly currentTree +-- destroy@1.0.4
+74 silly currentTree +-- ecc-jsbn@0.1.1
+74 silly currentTree +-- ee-first@1.1.1
+74 silly currentTree +-- ejs@2.5.7
+74 silly currentTree +-- encodeurl@1.0.1
+74 silly currentTree +-- encoding@0.1.12
+74 silly currentTree +-- escape-html@1.0.3
+74 silly currentTree +-- etag@1.8.1
+74 silly currentTree +-- express-session@1.15.6
+74 silly currentTree +-- express@4.16.2
+74 silly currentTree | `-- setprototypeof@1.1.0
+74 silly currentTree +-- extend@3.0.1
+74 silly currentTree +-- extsprintf@1.3.0
+74 silly currentTree +-- fast-deep-equal@1.0.0
+74 silly currentTree +-- file-type@3.9.0
+74 silly currentTree +-- finalhandler@1.1.0
+74 silly currentTree +-- forever-agent@0.6.1
+74 silly currentTree +-- form-data@2.3.1
+74 silly currentTree +-- forwarded@0.1.2
+74 silly currentTree +-- fresh@0.5.2
+74 silly currentTree +-- fs@0.0.1-security
+74 silly currentTree +-- getpass@0.1.7
+74 silly currentTree +-- glob@5.0.15
+74 silly currentTree +-- har-schema@2.0.0
+74 silly currentTree +-- har-validator@5.0.3
+74 silly currentTree +-- hawk@6.0.2
+74 silly currentTree +-- hoek@4.2.0
+74 silly currentTree +-- http-errors@1.6.2
+74 silly currentTree +-- http-signature@1.2.0
+74 silly currentTree +-- iconv-lite@0.4.19
+74 silly currentTree +-- idb-wrapper@1.7.1
+74 silly currentTree +-- inflight@1.0.6
+74 silly currentTree +-- inherits@2.0.3
+74 silly currentTree +-- ipaddr.js@1.5.2
+74 silly currentTree +-- is-stream@1.1.0
+74 silly currentTree +-- is-typedarray@1.0.0
+74 silly currentTree +-- is-url@1.2.2
+74 silly currentTree +-- isbuffer@0.0.0
+74 silly currentTree +-- isstream@0.1.2
+74 silly currentTree +-- jpeg-js@0.2.0
+74 silly currentTree +-- jsbn@0.1.1
+74 silly currentTree +-- json-schema-traverse@0.3.1
+74 silly currentTree +-- json-schema@0.2.3
+74 silly currentTree +-- json-stable-stringify@1.0.1
+74 silly currentTree +-- json-stringify-safe@5.0.1
+74 silly currentTree +-- jsonify@0.0.0
+74 silly currentTree +-- jsprim@1.4.1
+74 silly currentTree +-- level-js@2.2.4
+74 silly currentTree +-- ltgt@2.2.0
+74 silly currentTree +-- media-typer@0.3.0
+74 silly currentTree +-- merge-descriptors@1.0.1
+74 silly currentTree +-- method-override@2.3.10
+74 silly currentTree +-- methods@1.1.2
+74 silly currentTree +-- mime-db@1.30.0
+74 silly currentTree +-- mime-types@2.1.17
+74 silly currentTree +-- mime@1.4.1
+74 silly currentTree +-- minimatch@3.0.4
+74 silly currentTree +-- ms@2.0.0
+74 silly currentTree +-- negotiator@0.6.1
+74 silly currentTree +-- node-fetch@1.7.3
+74 silly currentTree +-- node-tesseract@0.2.7
+74 silly currentTree +-- node-uuid@1.4.8
+74 silly currentTree +-- oauth-sign@0.8.2
+74 silly currentTree +-- object-assign@4.1.1
+74 silly currentTree +-- object-keys@0.4.0
+74 silly currentTree +-- on-finished@2.3.0
+74 silly currentTree +-- on-headers@1.0.1
+74 silly currentTree +-- once@1.4.0
+74 silly currentTree +-- parseurl@1.3.2
+74 silly currentTree +-- path-is-absolute@1.0.1
+74 silly currentTree +-- path-to-regexp@0.1.7
+74 silly currentTree +-- performance-now@2.1.0
+74 silly currentTree +-- png.js@0.2.1
+74 silly currentTree +-- proxy-addr@2.0.2
+74 silly currentTree +-- punycode@1.4.1
+74 silly currentTree +-- qs@6.5.1
+74 silly currentTree +-- random-bytes@1.0.0
+74 silly currentTree +-- range-parser@1.2.0
+74 silly currentTree +-- raw-body@2.3.2
+74 silly currentTree +-- request@2.83.0
+74 silly currentTree | `-- uuid@3.1.0
+74 silly currentTree +-- safe-buffer@5.1.1
+74 silly currentTree +-- send@0.16.1
+74 silly currentTree +-- serve-static@1.13.1
+74 silly currentTree +-- setprototypeof@1.0.3
+74 silly currentTree +-- sntp@2.0.2
+74 silly currentTree +-- sshpk@1.13.1
+74 silly currentTree +-- statuses@1.3.1
+74 silly currentTree +-- stringstream@0.0.5
+74 silly currentTree +-- tesseract.js-core@1.0.2
+74 silly currentTree +-- tesseract.js@1.0.10
+74 silly currentTree +-- tough-cookie@2.3.3
+74 silly currentTree +-- tunnel-agent@0.6.0
+74 silly currentTree +-- tweetnacl@0.14.5
+74 silly currentTree +-- type-is@1.6.15
+74 silly currentTree +-- typedarray-to-buffer@1.0.4
+74 silly currentTree +-- uid-safe@2.1.5
+74 silly currentTree +-- unpipe@1.0.0
+74 silly currentTree +-- utils-merge@1.0.1
+74 silly currentTree +-- vary@1.1.2
+74 silly currentTree +-- verror@1.10.0
+74 silly currentTree +-- wrappy@1.0.2
+74 silly currentTree `-- xtend@2.1.2
+75 silly idealTree code-breakers@1.0.0
+75 silly idealTree +-- abstract-leveldown@0.12.4
+75 silly idealTree | `-- xtend@3.0.0
+75 silly idealTree +-- accepts@1.3.4
+75 silly idealTree +-- ajv@5.2.3
+75 silly idealTree +-- array-flatten@1.1.1
+75 silly idealTree +-- asn1@0.2.3
+75 silly idealTree +-- assert-plus@1.0.0
+75 silly idealTree +-- asynckit@0.4.0
+75 silly idealTree +-- aws-sign2@0.7.0
+75 silly idealTree +-- aws4@1.6.0
+75 silly idealTree +-- balanced-match@1.0.0
+75 silly idealTree +-- bcrypt-pbkdf@1.0.1
+75 silly idealTree +-- body-parser@1.18.2
+75 silly idealTree +-- boom@4.3.1
+75 silly idealTree +-- brace-expansion@1.1.8
+75 silly idealTree +-- bytes@3.0.0
+75 silly idealTree +-- caseless@0.12.0
+75 silly idealTree +-- co@4.6.0
+75 silly idealTree +-- combined-stream@1.0.5
+75 silly idealTree +-- concat-map@0.0.1
+75 silly idealTree +-- content-disposition@0.5.2
+75 silly idealTree +-- content-type@1.0.4
+75 silly idealTree +-- cookie-signature@1.0.6
+75 silly idealTree +-- cookie@0.3.1
+75 silly idealTree +-- core-util-is@1.0.2
+75 silly idealTree +-- crc@3.4.4
+75 silly idealTree +-- cryptiles@3.1.2
+75 silly idealTree | `-- boom@5.2.0
+75 silly idealTree +-- dashdash@1.14.1
+75 silly idealTree +-- debug@2.6.9
+75 silly idealTree +-- delayed-stream@1.0.0
+75 silly idealTree +-- depd@1.1.1
+75 silly idealTree +-- destroy@1.0.4
+75 silly idealTree +-- ecc-jsbn@0.1.1
+75 silly idealTree +-- ee-first@1.1.1
+75 silly idealTree +-- ejs@2.5.7
+75 silly idealTree +-- encodeurl@1.0.1
+75 silly idealTree +-- encoding@0.1.12
+75 silly idealTree +-- escape-html@1.0.3
+75 silly idealTree +-- etag@1.8.1
+75 silly idealTree +-- express-session@1.15.6
+75 silly idealTree +-- express@4.16.2
+75 silly idealTree | `-- setprototypeof@1.1.0
+75 silly idealTree +-- extend@3.0.1
+75 silly idealTree +-- extsprintf@1.3.0
+75 silly idealTree +-- fast-deep-equal@1.0.0
+75 silly idealTree +-- file-type@3.9.0
+75 silly idealTree +-- finalhandler@1.1.0
+75 silly idealTree +-- forever-agent@0.6.1
+75 silly idealTree +-- form-data@2.3.1
+75 silly idealTree +-- forwarded@0.1.2
+75 silly idealTree +-- fresh@0.5.2
+75 silly idealTree +-- fs@0.0.1-security
+75 silly idealTree +-- getpass@0.1.7
+75 silly idealTree +-- glob@5.0.15
+75 silly idealTree +-- har-schema@2.0.0
+75 silly idealTree +-- har-validator@5.0.3
+75 silly idealTree +-- hawk@6.0.2
+75 silly idealTree +-- hoek@4.2.0
+75 silly idealTree +-- http-errors@1.6.2
+75 silly idealTree +-- http-signature@1.2.0
+75 silly idealTree +-- iconv-lite@0.4.19
+75 silly idealTree +-- idb-wrapper@1.7.1
+75 silly idealTree +-- inflight@1.0.6
+75 silly idealTree +-- inherits@2.0.3
+75 silly idealTree +-- ipaddr.js@1.5.2
+75 silly idealTree +-- is-stream@1.1.0
+75 silly idealTree +-- is-typedarray@1.0.0
+75 silly idealTree +-- is-url@1.2.2
+75 silly idealTree +-- isbuffer@0.0.0
+75 silly idealTree +-- isstream@0.1.2
+75 silly idealTree +-- jpeg-js@0.2.0
+75 silly idealTree +-- jsbn@0.1.1
+75 silly idealTree +-- json-schema-traverse@0.3.1
+75 silly idealTree +-- json-schema@0.2.3
+75 silly idealTree +-- json-stable-stringify@1.0.1
+75 silly idealTree +-- json-stringify-safe@5.0.1
+75 silly idealTree +-- jsonify@0.0.0
+75 silly idealTree +-- jsprim@1.4.1
+75 silly idealTree +-- level-js@2.2.4
+75 silly idealTree +-- ltgt@2.2.0
+75 silly idealTree +-- media-typer@0.3.0
+75 silly idealTree +-- merge-descriptors@1.0.1
+75 silly idealTree +-- method-override@2.3.10
+75 silly idealTree +-- methods@1.1.2
+75 silly idealTree +-- mime-db@1.30.0
+75 silly idealTree +-- mime-types@2.1.17
+75 silly idealTree +-- mime@1.4.1
+75 silly idealTree +-- minimatch@3.0.4
+75 silly idealTree +-- ms@2.0.0
+75 silly idealTree +-- negotiator@0.6.1
+75 silly idealTree +-- node-fetch@1.7.3
+75 silly idealTree +-- node-tesseract@0.2.7
+75 silly idealTree +-- node-uuid@1.4.8
+75 silly idealTree +-- oauth-sign@0.8.2
+75 silly idealTree +-- object-assign@4.1.1
+75 silly idealTree +-- object-keys@0.4.0
+75 silly idealTree +-- on-finished@2.3.0
+75 silly idealTree +-- on-headers@1.0.1
+75 silly idealTree +-- once@1.4.0
+75 silly idealTree +-- parseurl@1.3.2
+75 silly idealTree +-- path-is-absolute@1.0.1
+75 silly idealTree +-- path-to-regexp@0.1.7
+75 silly idealTree +-- performance-now@2.1.0
+75 silly idealTree +-- png.js@0.2.1
+75 silly idealTree +-- proxy-addr@2.0.2
+75 silly idealTree +-- punycode@1.4.1
+75 silly idealTree +-- qs@6.5.1
+75 silly idealTree +-- random-bytes@1.0.0
+75 silly idealTree +-- range-parser@1.2.0
+75 silly idealTree +-- raw-body@2.3.2
+75 silly idealTree +-- request@2.83.0
+75 silly idealTree | `-- uuid@3.1.0
+75 silly idealTree +-- safe-buffer@5.1.1
+75 silly idealTree +-- send@0.16.1
+75 silly idealTree +-- serve-static@1.13.1
+75 silly idealTree +-- setprototypeof@1.0.3
+75 silly idealTree +-- sntp@2.0.2
+75 silly idealTree +-- sshpk@1.13.1
+75 silly idealTree +-- statuses@1.3.1
+75 silly idealTree +-- stringstream@0.0.5
+75 silly idealTree +-- tesseract.js-core@1.0.2
+75 silly idealTree +-- tesseract.js@1.0.10
+75 silly idealTree +-- tesseract@0.0.3
+75 silly idealTree +-- tough-cookie@2.3.3
+75 silly idealTree +-- tunnel-agent@0.6.0
+75 silly idealTree +-- tweetnacl@0.14.5
+75 silly idealTree +-- type-is@1.6.15
+75 silly idealTree +-- typedarray-to-buffer@1.0.4
+75 silly idealTree +-- uid-safe@2.1.5
+75 silly idealTree +-- unpipe@1.0.0
+75 silly idealTree +-- utils-merge@1.0.1
+75 silly idealTree +-- vary@1.1.2
+75 silly idealTree +-- verror@1.10.0
+75 silly idealTree +-- wrappy@1.0.2
+75 silly idealTree `-- xtend@2.1.2
+76 silly generateActionsToTake Starting
+77 silly install generateActionsToTake
+78 silly generateActionsToTake Finishing
+79 silly diffTrees action count 1
+80 silly diffTrees add tesseract@0.0.3
+81 silly decomposeActions action count 8
+82 silly decomposeActions fetch tesseract@0.0.3
+83 silly decomposeActions extract tesseract@0.0.3
+84 silly decomposeActions test tesseract@0.0.3
+85 silly decomposeActions preinstall tesseract@0.0.3
+86 silly decomposeActions build tesseract@0.0.3
+87 silly decomposeActions install tesseract@0.0.3
+88 silly decomposeActions postinstall tesseract@0.0.3
+89 silly decomposeActions finalize tesseract@0.0.3
+90 silly runTopLevelLifecycles Starting
+91 silly executeActions Starting
+92 silly install executeActions
+93 silly doSerial global-install 0
+94 silly doParallel fetch 1
+95 verbose correctMkdir C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+96 verbose lock using C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\_locks\staging-45e562e43b5b7d66.lock for C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging
+97 silly doParallel extract 1
+98 silly extract tesseract@0.0.3
+99 verbose unbuild node_modules\.staging\tesseract-61c6f932
+100 silly gentlyRm C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932 is being purged from base C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers
+101 verbose gentlyRm don't care about contents; nuking C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932
+102 verbose tar unpack C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\tesseract\0.0.3\package.tgz
+103 verbose tar unpacking to C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932
+104 silly gentlyRm C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932 is being purged
+105 verbose gentlyRm don't care about contents; nuking C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932
+106 silly gunzTarPerm modes [ '777', '666' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry LICENSE
+111 silly gunzTarPerm extractEntry .idea/.name
+112 silly gunzTarPerm extractEntry .idea/encodings.xml
+113 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+114 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+115 silly gunzTarPerm extractEntry .idea/misc.xml
+116 silly gunzTarPerm extractEntry .idea/modules.xml
+117 silly gunzTarPerm extractEntry .idea/node-tesseract.iml
+118 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+119 silly gunzTarPerm extractEntry .idea/vcs.xml
+120 silly gunzTarPerm extractEntry .idea/workspace.xml
+121 silly gunzTarPerm extractEntry INSTALL
+122 silly gunzTarPerm extractEntry binding.gyp
+123 silly gunzTarPerm extractEntry lib/tesseract.js
+124 silly gunzTarPerm extractEntry src/leptonica_pix.cc
+125 silly gunzTarPerm extractEntry src/leptonica_pix.h
+126 silly gunzTarPerm extractEntry src/tesseract_baseapi.cc
+127 silly gunzTarPerm extractEntry src/tesseract_baseapi.h
+128 silly gunzTarPerm extractEntry src/tesseract_bindings.cc
+129 silly gunzTarPerm extractEntry src/tesseract_bindings.h
+130 silly gentlyRm C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932\node_modules is being purged
+131 verbose gentlyRm don't care about contents; nuking C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932\node_modules
+132 silly doParallel preinstall 1
+133 silly preinstall tesseract@0.0.3 C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932
+134 info lifecycle tesseract@0.0.3~preinstall: tesseract@0.0.3
+135 silly lifecycle tesseract@0.0.3~preinstall: no script for preinstall, continuing
+136 silly doReverseSerial remove 0
+137 silly doSerial move 0
+138 silly doSerial finalize 1
+139 silly finalize C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\tesseract
+140 silly doSerial build 1
+141 silly build tesseract@0.0.3
+142 info linkStuff tesseract@0.0.3
+143 silly linkStuff tesseract@0.0.3 has C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules as its parent node_modules
+144 verbose linkBins tesseract@0.0.3
+145 verbose linkMans tesseract@0.0.3
+146 silly doSerial global-link 0
+147 silly doParallel update-linked 0
+148 silly doSerial install 1
+149 silly install tesseract@0.0.3 C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging\tesseract-61c6f932
+150 info lifecycle tesseract@0.0.3~install: tesseract@0.0.3
+151 verbose lifecycle tesseract@0.0.3~install: unsafe-perm in lifecycle true
+152 verbose lifecycle tesseract@0.0.3~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\tesseract\node_modules\.bin;C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.bin;C:\Users\Sandeep Yadav\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Sandeep Yadav\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\opencv\build\x64\vc14\bin;C:\sqlite;C:\opencv;C:\opencv\build\x64\vc14\bin;C:\Users\Sandeep Yadav\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\Sandeep Yadav\AppData\Local\Programs\Python\Python36;C:\Users\Sandeep Yadav\AppData\Local\Microsoft\WindowsApps;C:\Users\Sandeep Yadav\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+153 verbose lifecycle tesseract@0.0.3~install: CWD: C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\tesseract
+154 silly lifecycle tesseract@0.0.3~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+155 silly lifecycle tesseract@0.0.3~install: Returned: code: 1  signal: null
+156 info lifecycle tesseract@0.0.3~install: Failed to exec install script
+157 verbose unlock done using C:\Users\Sandeep Yadav\AppData\Roaming\npm-cache\_locks\staging-45e562e43b5b7d66.lock for C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers\node_modules\.staging
+158 silly rollbackFailedOptional Starting
+159 silly rollbackFailedOptional Finishing
+160 silly runTopLevelLifecycles Finishing
+161 silly install printInstalled
+162 warn code-breakers@1.0.0 No description
+163 verbose If you need help, you may report this error at:
+163 verbose     <https://github.com/npm/npm/issues>
+164 warn code-breakers@1.0.0 No repository field.
+165 verbose If you need help, you may report this error at:
+165 verbose     <https://github.com/npm/npm/issues>
+166 verbose stack Error: tesseract@0.0.3 install: `node-gyp rebuild`
+166 verbose stack Exit status 1
+166 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+166 verbose stack     at emitTwo (events.js:106:13)
+166 verbose stack     at EventEmitter.emit (events.js:191:7)
+166 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+166 verbose stack     at emitTwo (events.js:106:13)
+166 verbose stack     at ChildProcess.emit (events.js:191:7)
+166 verbose stack     at maybeClose (internal/child_process.js:891:16)
+166 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+167 verbose pkgid tesseract@0.0.3
+168 verbose cwd C:\Users\Sandeep Yadav\Desktop\hack\Code-breakers
+169 error Windows_NT 10.0.15063
+170 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tesseract"
+171 error node v6.11.0
+172 error npm  v3.10.10
+173 error code ELIFECYCLE
+174 error tesseract@0.0.3 install: `node-gyp rebuild`
+174 error Exit status 1
+175 error Failed at the tesseract@0.0.3 install script 'node-gyp rebuild'.
+175 error Make sure you have the latest version of node.js and npm installed.
+175 error If you do, this is most likely a problem with the tesseract package,
+175 error not with npm itself.
+175 error Tell the author that this fails on your system:
+175 error     node-gyp rebuild
+175 error You can get information on how to open an issue for this project with:
+175 error     npm bugs tesseract
+175 error Or if that isn't available, you can get their info via:
+175 error     npm owner ls tesseract
+175 error There is likely additional logging output above.
+176 verbose exit [ 1, true ]
