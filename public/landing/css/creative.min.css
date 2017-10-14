@@ -188,7 +188,7 @@ header.masthead {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/back1.jpg);
+    background-image: url(../../assets/img/back1.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
