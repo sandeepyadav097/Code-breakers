@@ -5,6 +5,7 @@ var session = require('express-session');
 var indexRoute = require('./routes/index');
 var bodyParser = require('body-parser');
 
+app.set('view engine','ejs');
 //session
 app.use(session({
   secret: 'keyboard cat',
